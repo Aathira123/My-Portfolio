@@ -1,0 +1,256 @@
+.App{
+  width:100% !important;
+ 
+ height:100vh ;
+ max-height: 100% !important; 
+ max-width: 100%;
+ overflow-y: auto;
+ 
+ 
+}
+
+.homecontain{
+  margin-top: 75px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cardscontainer{
+  display: flex;
+  flex-wrap: wrap;
+ 
+  justify-content: center;
+}
+
+
+.card{
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.projects{
+  display: flex;
+ 
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.card-body{
+display: flex;
+
+color:white;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+background-color: rgb(51, 45, 51);
+}
+.navitemclass{
+  border:2px solid black;
+  margin-right: 25px;
+  padding-left:15px;
+  background-color: rgb(109, 101, 109);
+  border-radius: 15px;
+  
+  
+}
+.card-title{
+font-weight: bolder;
+}
+.certimodal{
+  height:550px
+}
+@media only screen and (max-width:530px){
+  .certimodal{
+    height:390px;
+    
+  }
+}
+
+.pageheading1{
+  margin-bottom: 30px;
+  margin-top: 35px;
+	background-color: rgb(231, 193, 193);
+	color:linear-gradient(-45deg, #4d4846, #a39097, #90abb4, #92ada7);
+	font-size: 30px; 
+
+    position: relative;
+   margin-left: 50%;
+
+	max-width: 50%;
+	border-radius: 50px;
+	text-align: center;
+ 
+	transform: translate(-50%, -50%);
+  mix-blend-mode: screen;
+
+}
+@media only screen  and (max-width:656px){
+  .pageheading1{
+  font-size: 18px;
+  }
+
+}
+.pageheading2{
+  margin-bottom: 30px;
+  margin-top: 100px;
+	background-color: rgb(231, 193, 193);
+  mix-blend-mode: screen;
+  text-shadow: 2px 2px;
+	font-size: 30px; 
+    position: relative;
+   margin-left: 50%;
+
+	max-width: 50%;
+	border-radius: 50px;
+	text-align: center;
+	
+	transform: translate(-50%, -50%);
+
+}
+@media only screen  and (max-width:656px){
+  .pageheading2{
+  font-size: 18px;
+  }
+
+}
+.pie{
+  margin-left: 30px;
+  margin-top: 2em;
+  width:90vw;
+  height:60vh;
+
+}
+@media only screen and (max-width:423px){
+  .cards{
+    width:290px;
+    height:220px;
+  }
+  .certimodal{
+    height:300px;
+  }
+
+}
+.cards{
+  margin-left: 7px;
+  margin-right: 4px;
+ cursor: pointer;
+max-width: 500px;
+margin-top: 30px;
+ max-height: 600px;
+ 
+}
+.brand{
+
+font-weight: bolder;
+font-size: 25px;
+font-style: italic;
+border-radius: 200px;
+padding:10px;
+background-color: rgb(109, 101, 109);
+}
+.about-div2{
+  display: block;
+  padding-left: 50px;
+  padding-top: 30px;
+}
+.imagecontain {
+  position: relative;
+ 
+  width: 100%;
+  max-width: 400px;
+  height:100%;
+}
+.cvcss{
+  width:530px;height:600px;
+}
+@media only screen and (min-width:499) and (max-width:513px){
+.cvcss{
+width:380px;
+height:550px;
+}
+}
+@media only screen and (max-width:499px){
+  .cvcss{
+  width:300px;
+  height:420px;
+  }
+}
+
+.resimage{
+ 
+  display: block;
+  position: relative;
+  width: 100%;
+  height:100%;
+  
+}
+
+/* Style the button and place it in the middle of the container/image */
+.imagecontain .btn1 {
+
+  padding:10px;
+  background:white;
+  border-radius:10px;
+  position: absolute;
+transform: translate(-50%,-50%);
+margin-right: -50%;
+top: 50%;
+left: 50%;
+  transform: translate(-50%, -50%);
+  
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+
+  width: 180px;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.imagecontain .btn1:hover {
+  background-color: black;
+}
+
+.about-div{
+  display:flex;
+  justify-content: space-evenly;
+}
+.about-heading{
+  color:black;
+  font-size: xx-large;
+  font-weight: bolder;
+  padding-bottom: 20px;
+  font-style: italic;
+  
+}
+.unselected{
+  padding-right: 20px;
+  font-size: larger;
+  color:white;
+}
+.unselected:hover{
+  color:#800080;;
+}
+
+.selected{
+  color:black;
+  
+  
+}
+.page-enter {
+  opacity: 0.01;
+  transform: scale(0.9) translateY(50%);
+  }
+  .page-enter-active {
+  opacity: 1;
+  transform: scale(1) translateY(0%);
+  transition: all 300ms ease-in-out;
+  }
+  .page-exit {
+  opacity: 1;
+  transform: scale(1) translateY(0%);
+  }
+  .page-exit-active {
+  opacity: 0.01;
+  transform: scale(0.9) translateY(50%);
+  transition: all 300ms ease-in-out;
+  }
+  
