@@ -2,7 +2,7 @@ import React,{useState} from 'react'
 import {SocialIcon} from 'react-social-icons';
 import {Container,Row,Image,Col,Button,Modal} from 'react-bootstrap'
 
-import resume from '../images/resume.png';
+import resume from '../images/resume_1.jpg';
 function Home() {
     const [show, setShow] = useState(false);
 
@@ -17,9 +17,15 @@ function Home() {
         <Row>
         <Col xs={12} md={6} >
         <h1 className="about-heading">HI!</h1> 
-        <h1 className="about-heading">I AM <span style={{color:'#800080'}}>AATHIRA SATHEESH,</span></h1>
-        <h1 className="about-heading">AN ENGINEERING GRADUATE IN<br/><span style={{color:'#800086'}}> COMPUTER SCIENCE </span><br/> FROM<br/> <span style={{color:'#800080'}}>FEDERAL INSITITUTE OF SCIENCE & TECHNOLOGY</span> </h1>
+        <h1 className="about-heading">I AM <span style={{color:'#800080'}}>AATHIRA SATHEESH NAIR,</span></h1>
+        <h1 className="about-heading">AN ENGINEERING GRADUATE I<br/>
+        <span style={{color:'#800086'}}> COMPUTER SCIENCE </span><br/> FROM<br/> 
+        <span style={{color:'#800080'}}>FEDERAL INSITITUTE OF SCIENCE & TECHNOLOGY</span> </h1>
         <br/>
+        <h1 className="about-heading">AND CURRENTLY DOING MASTERS IN
+        <br/>
+        <span style={{color:'#800086'}}> COMPUTER SCIENCE  AT UNIVERSITY OF TEXAS AT DALLAS </span>
+        </h1>
         <div className="icons" >
         <SocialIcon url="https://linkedin.com/in/aathira0304" style={{width:50,height:50}}/>
         &nbsp;
