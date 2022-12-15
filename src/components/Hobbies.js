@@ -44,7 +44,7 @@ function Hobbies() {
         display: true,
         labels: {
             fontSize:23,
-            fontColor:'black'
+            fontColor:'white'
         }
     }
 }}

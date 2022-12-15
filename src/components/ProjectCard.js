@@ -21,11 +21,7 @@ export const projectdata=[
             loc:"https://github.com/Aathira123/Youtube-Clone"
            
         },
-            {
-                title:"News Updates using ALAN AI and React",
-                description:"A Voice Controlled Web Application to get latest news updates",
-                loc:"https://github.com/Aathira123/News-Updates-by-Alan-AI-and-React"
-                },
+ 
                 {
                     title:"Real Time Chat Application",
                     description:"A client server based chat application with React in the front end , Node and Express to develop server side and socket.io for communication between them",
@@ -35,7 +31,17 @@ export const projectdata=[
                         title:"Progressive Weather App",
                         description:"A progressive web application to see weather",
                         loc:"https://weatherapp-aathira.netlify.app/"
-                        }
+                        },{
+                            loc:"https://github.com/Aathira123/WPL-Project/tree/develop",
+                            title:"Hotel Reservation App",
+                            description:"A web application similiar to Airbnb done as part of coursework"
+
+                        },
+                   {
+                    loc:"https://github.com/Aathira123/MachineLearningCS6363",
+                    title:"Netflix stock price prediction using LSTM",
+                    description:"A deep learning model using LSTM coded from scratch to predict stock price done as part of coursework"
+                   }     
     ]
 
 

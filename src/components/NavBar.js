@@ -9,8 +9,7 @@ const NavBar = () => {
     return(
         
     <Navbar collapseOnSelect expand="xl" variant="light" style={{height:'200px'}}>
-  <h4 href="/home" className="brand">PORTFOLIO</h4>
-  <Navbar.Toggle aria-controls="responsive-navbar-nav" style={{}}/>
+  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     
     <Nav className="justify-content-end"  style={{ width: "100%" }}> 

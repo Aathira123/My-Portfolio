@@ -13,7 +13,7 @@ export default function Skills() {
           },
           {
             name: 'ReactJS',
-            level: 55,
+            level: 80,
             color: '#404040',
           },
         {
@@ -59,13 +59,13 @@ export default function Skills() {
              <Col md={6} xs={12}>
          <SkillBars skills={Skillsdata}  labelsWidth={200} duration={2} /></Col>
          <Col md={{ offset:0.5 }}>
-             <h3 style={{fontFamily:"Apple Chancery, cursive",textAlign:'left',fontSize:'20px'}}>
-                 I love developing new skills . Web Development and Data Science are two fields that I love. I watch videos and try to develop websites,take part in small competitions through various online platforms and make sure I learn something new everyday.
+             <h3 style={{fontFamily:"Apple Chancery, cursive",textAlign:'left',fontSize:'20px', color:"white"}}>
+                 I love developing new skills . Web Development is one field that I love. Developing something from scratch is something challenging and interesting at the same time.
                      </h3>
-                     <h3 style={{fontFamily:"Apple Chancery, cursive",textAlign:'left',fontSize:'20px'}}>
+                     <h3 style={{fontFamily:"Apple Chancery, cursive",textAlign:'left',fontSize:'20px',color:"white"}}>
                  Another thing I love doing is working with data structures. I try to improve my coding skills by doing atleast one question per day.
                      </h3>
-                     <h3 style={{fontFamily:"Apple Chancery, cursive",textAlign:'left',fontSize:'20px'}}>
+                     <h3 style={{fontFamily:"Apple Chancery, cursive",textAlign:'left',fontSize:'20px',color:"white"}}>
                 I am not an outstanding Coder yet but I am trying my best to reach there one day .
                      </h3>
                     
