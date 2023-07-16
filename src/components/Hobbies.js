@@ -7,7 +7,7 @@ function Hobbies() {
             
             data: [25, 25, 15,15,20],
             
-            backgroundColor:['#FFCC99','#99CCFF','#FF99CC','#CCFFCC','#FFFF66'],
+            backgroundColor:['#2c6e7c','#62b0a5','#c8cfd6','#b1d0ca','#09222d'],
             borderColor:'black',
             
             legend:{

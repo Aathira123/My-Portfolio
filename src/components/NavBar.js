@@ -9,15 +9,26 @@ const NavBar = () => {
     return(
         
     <Navbar collapseOnSelect expand="xl" variant="light" style={{height:'200px'}}>
+       <Navbar.Brand href="/about">
+        <div className='brand-css'>
+           Portfolio
+        </div>
+       </Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     
     <Nav className="justify-content-end"  style={{ width: "100%" }}> 
     <NavItem className="navitemclass">
-    <NavLink to="/home" className="unselected" activeClassName="selected" >Home</NavLink>
+    <NavLink to="/about" className="unselected" activeClassName="selected" >About</NavLink>
     </NavItem>
     <NavItem  className="navitemclass">
     <NavLink to="/skills" className="unselected" activeClassName="selected">Skills</NavLink>
+    </NavItem>
+    <NavItem  className="navitemclass">
+    <NavLink to="/experience" className="unselected" activeClassName="selected">Experience</NavLink>
+    </NavItem>
+    <NavItem  className="navitemclass">
+    <NavLink to="/projects" className="unselected" activeClassName="selected">Projects</NavLink>
     </NavItem>
     <NavItem  className="navitemclass">
     <NavLink to="/certification" className="unselected" activeClassName="selected">Certifications</NavLink>

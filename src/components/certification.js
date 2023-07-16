@@ -5,7 +5,7 @@ import ml from '../images/ml.jpg';
 import ds from '../images/ds.jpg';
 import rea from '../images/react.jpg'
 import agile from '../images/agile.jpg'
-import Certificatemodals from './certificatemodals';
+import Certificatemodals from './CertificateModals';
 import kub from '../images/kub.jpg';
 import spring from '../images/spring.jpg';
 import cloud from '../images/cloud.jpg'
@@ -30,13 +30,7 @@ const handleShow = () => setShow(true);
             <img src={agile} className="cards" onClick={()=>{setImgs(agile);handleShow();}}/>
             <img src={cloud} className="cards" onClick={()=>{setImgs(cloud);handleShow();}}/>
         </div>
-
-
-
-
   <Certificatemodals imgs={imgs} show={show} handleClose={handleClose}/>
-
-
   </div>
 
 

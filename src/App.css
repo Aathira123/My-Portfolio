@@ -1,14 +1,23 @@
+
+
 .App{
+  height: 100%;
+	background-size: 400% 400%;
+	background-color: #959899;
+
   width:100% !important;
  
  height:100vh ;
  max-height: 100% !important; 
  max-width: 100%;
  overflow-y: auto;
- 
- 
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+scroll-behavior: smooth;
 }
-
+.btn1{
+  background-color: #2c6e7c !important;
+  border-color:#2c6e7c !important; ;
+}
 .homecontain{
   margin-top: 75px;
   display: flex;
@@ -18,10 +27,19 @@
 .cardscontainer{
   display: flex;
   flex-wrap: wrap;
- 
+ margin-bottom: 20px;
   justify-content: center;
 }
-
+.experience-bg{
+background-color: rgba(8, 8, 8, 0.928) !important;
+}
+.span-skills{
+  border: 1px solid black;
+  padding:8px;
+  margin-right: 5px;
+  background-color: lightgreen;
+  border-radius: 3px;
+}
 
 .card{
   margin-left: 20px;
@@ -43,11 +61,8 @@ align-items: center;
 background-color: rgb(51, 45, 51);
 }
 .navitemclass{
-  border:2px solid black;
-  margin-right: 25px;
-  padding-left:15px;
-  background-color: rgb(109, 101, 109);
-  border-radius: 15px;
+ 
+  padding-left:5px;
   
   
 }
@@ -65,21 +80,17 @@ font-weight: bolder;
 }
 
 .pageheading1{
-  margin-bottom: 30px;
-  margin-top: 35px;
-	background-color: rgb(231, 193, 193);
-	color:linear-gradient(-45deg, #4d4846, #a39097, #90abb4, #92ada7);
+ 
+  margin-top: 10px;
 	font-size: 30px; 
-
     position: relative;
    margin-left: 50%;
-
 	max-width: 50%;
-	border-radius: 50px;
 	text-align: center;
- 
+ color: black;
+ font-weight: bold;
 	transform: translate(-50%, -50%);
-  mix-blend-mode: screen;
+
 
 }
 @media only screen  and (max-width:656px){
@@ -90,7 +101,7 @@ font-weight: bolder;
 }
 .pageheading2{
   margin-bottom: 30px;
-  margin-top: 100px;
+ 
 	background-color: rgb(231, 193, 193);
   mix-blend-mode: screen;
   text-shadow: 2px 2px;
@@ -137,27 +148,13 @@ margin-top: 30px;
  max-height: 600px;
  
 }
-.brand{
 
-font-weight: bolder;
-font-size: 25px;
-font-style: italic;
-border-radius: 200px;
-padding:10px;
-background-color: rgb(109, 101, 109);
-}
 .about-div2{
   display: block;
   padding-left: 50px;
   padding-top: 30px;
 }
-.imagecontain {
-  position: relative;
- 
-  width: 100%;
-  max-width: 400px;
-  height:100%;
-}
+
 .cvcss{
   width:530px;height:600px;
 }
@@ -184,30 +181,7 @@ height:550px;
 }
 
 /* Style the button and place it in the middle of the container/image */
-.imagecontain .btn1 {
 
-  padding:10px;
-  background:white;
-  border-radius:10px;
-  position: absolute;
-transform: translate(-50%,-50%);
-margin-right: -50%;
-top: 50%;
-left: 50%;
-  transform: translate(-50%, -50%);
-  
-  background-color: #555;
-  color: white;
-  font-size: 16px;
-
-  width: 180px;
-  opacity: 0.7;
-  cursor: pointer;
-}
-
-.imagecontain .btn1:hover {
-  background-color: black;
-}
 
 .about-div{
   display:flex;
@@ -215,11 +189,30 @@ left: 50%;
 }
 .about-heading{
   color:black;
-  font-size: xx-large;
+  font-size: large;
   font-weight: bolder;
   padding-bottom: 20px;
-  font-style: italic;
+ 
   
+}
+.font-big{
+  font-size:larger;
+  font-style: italic;
+  font-weight: bolder;
+}
+.font-medium{
+  font-size: large;
+
+}
+.brand-css{
+
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #2c6e7c;
+  color: white;
+}
+.margin-top{
+  margin-top: 15px;
 }
 .unselected{
   padding-right: 20px;
