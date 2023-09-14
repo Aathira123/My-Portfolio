@@ -25,7 +25,7 @@ function App({location}) {
     <Route path="/experience" component={Experience}/>
     <Route path="/certification" component={Certification} />
    
-    <Redirect to="/home"></Redirect>
+    <Redirect to="/about"></Redirect>
     </Switch>
     </CSSTransition>
  </TransitionGroup>

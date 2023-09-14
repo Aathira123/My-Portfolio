@@ -37,6 +37,11 @@ export default function Skills() {
       color: '#404040',
     },
     {
+      name: 'NOSQL',
+      level: 60,
+      color: '#404040',
+    },
+    {
       name: 'Data Structures',
       level: 70,
       color: '#404040',

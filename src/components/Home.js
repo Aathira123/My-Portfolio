@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { SocialIcon } from 'react-social-icons';
 import { Container, Row, Image, Col, Button, Modal } from 'react-bootstrap'
 import memoji from '../images/memoji.png'
-import resume from '../images/Resume.png';
+import resume from '../images/resume.png';
 function Home() {
   const [show, setShow] = useState(false);
 
@@ -48,7 +48,7 @@ function Home() {
                 <Button variant="secondary" onClick={handleClose}>
                   Close
                 </Button>
-                <a href={process.env.PUBLIC_URL + '/AathiraSatheeshNair.pdf'} target='_blank' download="AathiraSatheeshNair">
+                <a href={process.env.PUBLIC_URL + '/AathiraSatheeshNair_Resume.pdf'} target='_blank' download="AathiraSatheeshNair">
 
                   <Button className="btn1" onClick={handleShow}>Download Resume</Button>
                 </a>
