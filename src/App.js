@@ -18,14 +18,14 @@ function App({location}) {
     <TransitionGroup>
     <CSSTransition classNames='page' timeout={300} key={location.key}>
     <Switch location={location}>
-    <Route path="/about" component={Home} />
+    <Route path="/" component={Home} exact />
     <Route path="/skills" component={Skills} />
     <Route path="/projects" component={ProjectsComponent}/>
     <Route path="/hobbies" component={Hobbies} />
     <Route path="/experience" component={Experience}/>
     <Route path="/certification" component={Certification} />
    
-    <Redirect to="/about"></Redirect>
+    <Redirect to="/"></Redirect>
     </Switch>
     </CSSTransition>
  </TransitionGroup>

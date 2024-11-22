@@ -9,7 +9,7 @@ const NavBar = () => {
     return(
         
     <Navbar collapseOnSelect expand="xl" variant="light" style={{height:'200px'}}>
-       <Navbar.Brand href="/about">
+       <Navbar.Brand href="/">
         <div className='brand-css'>
            Portfolio
         </div>
@@ -19,7 +19,7 @@ const NavBar = () => {
     
     <Nav className="justify-content-end"  style={{ width: "100%" }}> 
     <NavItem className="navitemclass">
-    <NavLink to="/about" className="unselected" activeClassName="selected" >About</NavLink>
+    <NavLink to="/" className="unselected" activeClassName="selected" >About</NavLink>
     </NavItem>
     <NavItem  className="navitemclass">
     <NavLink to="/skills" className="unselected" activeClassName="selected">Skills</NavLink>
