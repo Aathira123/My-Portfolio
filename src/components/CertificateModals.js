@@ -1,6 +1,6 @@
 import React from 'react'
 import {Modal,Button,Image} from 'react-bootstrap';
-function Certificatemodals({imgs,show,handleClose}) {
+function CertificateModals({imgs,show,handleClose}) {
     return (
         <div>
             <Modal show={show} onHide={handleClose} size='lg'>
@@ -21,4 +21,4 @@ function Certificatemodals({imgs,show,handleClose}) {
     )
 }
 
-export default Certificatemodals
+export default CertificateModals

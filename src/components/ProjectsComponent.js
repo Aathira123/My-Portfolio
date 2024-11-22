@@ -16,7 +16,7 @@ export default function ProjectsComponent() {
           <div class="card-body">
             <h5 class="card-title">{pd.title}</h5>
             <p class="card-text">{pd.description}</p>
-            <a href={pd.loc} target='_blank' class="btn btn-secondary">Click to See</a>
+            <a href={pd.loc} target='_blank' rel="noreferrer" class="btn btn-secondary">Click to See</a>
           </div>
         </div>))}
 

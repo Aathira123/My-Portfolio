@@ -5,7 +5,7 @@ import ml from '../images/ml.jpg';
 import ds from '../images/ds.jpg';
 import rea from '../images/react.jpg'
 import agile from '../images/agile.jpg'
-import Certificatemodals from './CertificateModals';
+import CertificateModals from './CertificateModals';
 import kub from '../images/kub.jpg';
 import spring from '../images/spring.jpg';
 import cloud from '../images/cloud.jpg'
@@ -20,17 +20,17 @@ const handleShow = () => setShow(true);
             <h3 className="pageheading1">CERTIFICATIONS</h3>
             <br/>
         <div className="cardscontainer">
-        <img src={kub} className="cards"onClick={()=>{setImgs(kub);handleShow();}}/>
-        <img src={rea} className="cards" onClick={()=>{setImgs(rea);handleShow();}}/>
-            <img src={ml} className="cards"  onClick={()=>{setImgs(ml);handleShow();} }/>
-            <img src={spring} className="cards" onClick={()=>{setImgs(spring);handleShow();}}/>
-            <img src={ds} className="cards" onClick={()=>{setImgs(ds);handleShow();}}/>
+        <img src={kub} alt="" className="cards"onClick={()=>{setImgs(kub);handleShow();}}/>
+        <img src={rea} alt="" className="cards" onClick={()=>{setImgs(rea);handleShow();}}/>
+            <img src={ml} alt="" className="cards"  onClick={()=>{setImgs(ml);handleShow();} }/>
+            <img src={spring} alt="" className="cards" onClick={()=>{setImgs(spring);handleShow();}}/>
+            <img src={ds} alt="" className="cards" onClick={()=>{setImgs(ds);handleShow();}}/>
             
-            <img src={flask} className="cards"onClick={()=>{setImgs(flask);handleShow();}}/>
-            <img src={agile} className="cards" onClick={()=>{setImgs(agile);handleShow();}}/>
-            <img src={cloud} className="cards" onClick={()=>{setImgs(cloud);handleShow();}}/>
+            <img src={flask} alt="" className="cards"onClick={()=>{setImgs(flask);handleShow();}}/>
+            <img src={agile} alt=""className="cards" onClick={()=>{setImgs(agile);handleShow();}}/>
+            <img src={cloud} alt="" className="cards" onClick={()=>{setImgs(cloud);handleShow();}}/>
         </div>
-  <Certificatemodals imgs={imgs} show={show} handleClose={handleClose}/>
+  <CertificateModals imgs={imgs} show={show} handleClose={handleClose}/>
   </div>
 
 

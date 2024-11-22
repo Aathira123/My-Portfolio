@@ -1,6 +1,6 @@
 import React,{useState,useEffect} from 'react'
 import { experienceData } from '../Data/data'
-import {Card,Badge} from 'react-bootstrap';
+import {Card} from 'react-bootstrap';
 function Experience() {
 const [experience,setExperience]=useState([]);
 useEffect(()=>{
