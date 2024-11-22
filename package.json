@@ -19,7 +19,7 @@
     "react-scripts": "4.0.0",
     "react-skillbars": "^1.6.1",
     "react-skills": "^1.27.0",
-    "react-social-icons": "^4.1.0",
+    "react-social-icons": "^6.18.0",
     "react-transition-group": "^4.4.1",
     "reactstrap": "^8.7.1",
     "web-vitals": "^0.2.4"
@@ -48,5 +48,4 @@
       "last 1 safari version"
     ]
   }
-  
 }
